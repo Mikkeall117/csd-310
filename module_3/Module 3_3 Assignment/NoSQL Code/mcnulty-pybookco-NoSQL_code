@@ -1,0 +1,26 @@
+[
+    {
+        "publisher": [
+            {
+                "publisher_name": "new_age_publishing",
+                "publisher_code": "0042879",
+                "publisher_address": "4028 N. 140th St. Omaha NE 68144"
+            }
+        ],
+        "book": [
+            {
+                "book_isbn": "978443201857",
+                "book_name": "Intro to Programming",
+                "book_price": "$29.99"
+            }
+        ],
+        "author": [
+            {
+                "author_first_name": "April",
+                "author_last_name": "O'neil",
+                "author_phone": "402-123-4567",
+                "author_email": "april.o'neil@gmail.com"
+            }
+        ]
+    }
+]

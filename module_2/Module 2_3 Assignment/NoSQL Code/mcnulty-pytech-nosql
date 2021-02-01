@@ -1,0 +1,97 @@
+[
+    {
+        "student": [
+            {
+                "student_id": "102483",
+                "first_name": "david",
+                "last_name": "breck"
+            },
+            {
+                "student_id": "102492",
+                "first_name": "mary",
+                "last_name": "olson"
+            },
+            {
+                "student_id": "103479",
+                "first_name": "henry",
+                "last_name": "jones"
+            }
+        ]
+        "enrollment": [
+            {
+                "term": "summer",
+                "gpa": "3.8",
+                "start_date": [
+                    {
+                        "month": "june",
+                        "day": "24",
+                        "year": "2020"
+                    }
+                ]
+                "end_date": [
+                    {
+                        "month": "september",
+                        "day": "1",
+                        "year": "2020"
+                    }
+                ]
+            },
+            {
+                "term": "winter",
+                "gpa": "3.2",
+                "start_date": [
+                    {
+                        "month": "october",
+                        "day": "22",
+                        "year": "2020"
+                    }
+                ]
+                "end_date": [
+                    {
+                        "month": "february",
+                        "day": "20",
+                        "year": "2021"
+                    }
+                ]
+            },
+            {
+                "term": "spring",
+                "gpa": "2.8",
+                "start_date": [
+                    {
+                        "month": "february",
+                        "day": "25",
+                        "year": "2021"
+                    }
+                ]
+                "end_date": [
+                    {
+                        "month": "june",
+                        "day": "23",
+                        "year": "2021"
+                    }
+                ]
+            }
+        ]
+        "course": [
+            {
+                "course_id": "INFO 310",
+                "description": "A course for studying network engineering basics".
+                "instructor": "mark johnson",
+                "grade": "A"
+            },
+            {
+                "course_id": "INFO 440",
+                "description": "A course for studying web development",
+                "instructor": "david miller",
+                "grade": "B"
+            },
+            {
+                "course_id": "INFO 215",
+                "description": "A course for studying python programming",
+                "instructor": "jose marquez",
+                "grade": "A"
+            }
+        ]
+    }
+]

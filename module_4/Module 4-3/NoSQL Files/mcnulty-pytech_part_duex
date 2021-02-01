@@ -1,0 +1,49 @@
+[
+    {
+        "student_id": "4041",
+        "first_name": "Marcus",
+        "last_name": "Aurelius",
+        "enrollments": [
+            {
+                "term": "spring",
+                "gpa": "3.8",
+                "start_date": "1/31/2021",
+                "end_date": "4/3/2021",
+                "courses": [
+                    {
+                        "course_id": "INFO 230",
+                        "description": "Computer Repair and Troubleshooting",
+                        "instructor": "Professor Dave Matthews",
+                        "grade": "3"
+                    },
+                    {
+                        "course_id": "INFO 260",
+                        "description": "Software Development Methodologies",
+                        "instructor": "Professor Taylor Swift",
+                        "grade": "2"
+                    }
+                ]
+            },
+            {
+                "term": "summer",
+                "gpa": "3.9",
+                "start_date": "5/5/2021",
+                "end_date": "8/1/2021",
+                "courses": [
+                    {
+                        "course_id": "INFO 250",
+                        "description": "Intro to Networking",
+                        "instructor": "Professor Gene Simmons",
+                        "grade": "4"
+                    },
+                    {
+                        "course_id": "INFO 200",
+                        "description": "Intro to Database Administration",
+                        "instructor": "Professor Eddie Van Halen",
+                        "grade": "2"
+                    }
+                ]
+            }
+        ]
+    }
+]

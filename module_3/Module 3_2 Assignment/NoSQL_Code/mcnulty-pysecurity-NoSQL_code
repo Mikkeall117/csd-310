@@ -1,0 +1,37 @@
+[
+    {
+        "user": "michael",
+        "link_user_role": [
+            {
+                "role": "admin",
+                "link_role_permission": [
+                    {
+                        "role_permission": "network_access",
+                        "permission": "full_server_access"
+                    },
+                    {
+                        "role_permission": "command_prompt_access",
+                        "permission": "admin_credentials"
+                    },
+                    {
+                        "role_permission": "elevated_privileges",
+                        "permission": "admin_credentials"
+                    }
+                ]
+            },
+            {
+                "role": "manager",
+                "link_role_permission": [
+                    {
+                        "role_permission": "limited_network_access",
+                        "permission": "manager_server_drives_only"
+                    },
+                    {
+                        "role_permission": "elevated_privleges",
+                        "permission": "user_credentials"
+                    }
+                ]
+            }
+        ]
+    }
+]
