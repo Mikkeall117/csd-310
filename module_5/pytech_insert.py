@@ -19,7 +19,7 @@ db = client.pytech
 
 # the Marcus Aurelius data document
 marcus = {
-    "student_id": "4041",
+    "student_id": "1007",
     "first_name": "Marcus",
     "last_name": "Aurelius",
     "enrollments": [
@@ -48,7 +48,7 @@ marcus = {
 
 # Luke Skywalker data document
 luke = {
-    "student_id": "2008",
+    "student_id": "1008",
     "first_name": "Luke",
     "last_name": "Skywalker",
     "enrollments": [
@@ -77,7 +77,7 @@ luke = {
 
 # Darth Vader data document
 darth = {
-    "student_id": "3007",
+    "student_id": "1009",
     "first_name": "Darth",
     "last_name": "Vader",
     "enrollments": [
