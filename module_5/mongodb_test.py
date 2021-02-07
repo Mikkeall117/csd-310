@@ -19,4 +19,4 @@ client = MongoClient(url)
 db = client.pytech
 
 # prints collection names from the MongoDB database.
-print(db.list_collection_names)
+print((db.list_collection_names))
