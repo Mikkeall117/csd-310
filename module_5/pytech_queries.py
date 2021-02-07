@@ -23,7 +23,7 @@ students = db.students
 student_list = students.find({})
 
 # displays a header for this section of the assignment.
-print("\n -- Displaying students documents using the find() query --\n")
+print("\n -- DISPLAYING STUDENTS DOCUMENTS USING THE find() QUERY --\n")
 
 # prints every document from the students collection in a row.
 for doc in student_list:
@@ -33,8 +33,10 @@ for doc in student_list:
 luke = students.find_one({"student_id": "1008"})
 
 # prints the document found by student_id
-print("\n -- Displaying student document from find_one() query --\n")
+print("\n -- DISPLAYING STUDENTS DOCUMENT FROM find_one() QUERY --\n")
+
+# prints the single document from the student collection associated with student_id 1007.
 print("  Student ID: " + luke["student_id"] + "\n  First Name: " + luke["first_name"] + "\n  Last Name: " + luke["last_name"] + "\n")
 
-# final exit message. 
+# checks for user input to exit the program. 
 input("\n End of program, press any key to continue...")
