@@ -30,7 +30,11 @@ for doc in student_list:
     print("  Student ID: " + doc["student_id"] + "\n  First Name: " + doc["first_name"] + "\n  Last Name: " + doc["last_name"] + "\n")
 
 # finds a single document by student_id and assigns it to the doc variable.
-luke  = students.find_one({"student_id": "1007"})
+luke = students.find_one({"student_id": "1008"})
 
-# prints the document found above assigned to the doc variable to terminal.
-print(doc["1007"])
+# prints the document found by student_id
+print("\n -- Displaying student document from find_one() query --\n")
+print("  Student ID: " + luke["student_id"] + "\n  First Name: " + luke["first_name"] + "\n  Last Name: " + luke["last_name"] + "\n")
+
+# final exit message. 
+input("\n End of program, press any key to continue...")
