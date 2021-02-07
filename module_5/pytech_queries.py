@@ -4,16 +4,33 @@
     Date: 31 January 2021
     Description: This program uses the find method to display all documents in a collection, and then display a single document by student_id.
 """
+# imports pymongo and MongoClient
+from pymongo import MongoClient
 
-# creates the docs variable and sets it equal to all the documents in the students collection.
-docs = db.students.find({})
+# url for connecting to my MongoDB database
+url = "mongodb+srv://admin:admin@cluster0.uu0gn.mongodb.net/pytech?retryWrites=true&w=majority"
+
+# creates the variable client and sets it equal to the imported MongoClient that is running through the variable url. 
+client = MongoClient(url)
+
+# sets db equal to the client using the pytech database
+db = client.pytech
+
+# gets the students collection from the database.
+students = db.students
+
+# this finds all the students in the collection.
+student_list = students.find({})
+
+# displays a header for this section of the assignment.
+print("\n -- Displaying students documents using the find() query --\n")
 
 # prints every document from the students collection in a row.
-for doc in docs:
-    print(doc)
+for doc in student_list:
+    print("  Student ID: " + doc["student_id"] + "\n  First Name: " + doc["first_name"] + "\n  Last Name: " + doc["last_name"] + "\n")
 
 # finds a single document by student_id and assigns it to the doc variable.
-doc = db.students.find_one({"student_id": "1008"})
+luke  = students.find_one({"student_id": "1007"})
 
 # prints the document found above assigned to the doc variable to terminal.
-print(doc["student_id"])
+print(doc["1007"])
