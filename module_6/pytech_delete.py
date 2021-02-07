@@ -1,8 +1,9 @@
 """
-    Title: pytech_update.py
+    Title: pytech_delete.py
     Author: Michael McNulty
     Date: 7 February 2021
-    Description: This program prints all the documents in the students database, then updates the last_name of student_id 1007. 
+    Description: This program prints all the documents in the students collection, adds a new student to the collection with the student_id 1010, 
+    then deletes that student from the collection and re-prints the list of documents from the collection again. 
 """
 
 # imports pymongo and MongoClient
