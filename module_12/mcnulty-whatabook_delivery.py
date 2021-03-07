@@ -4,7 +4,7 @@
     Date: March 5 2021
     Description: This program is the console application that allows customers of the WhatABook 
     company to browse in-store book listings, add books to their wishlist, register for 
-    accounts, and view store hours and locations.
+    accounts, and view store hours and locations. 
 """
 
 # this imports the mysql.connector to the program. 
